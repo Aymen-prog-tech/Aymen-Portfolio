@@ -233,6 +233,46 @@ href="https://github.com/Aymen-prog-tech" alt="GitHub">
 href="https://www.linkedin.com/in/aymennigussie" alt="LinkedIn"> 
 <area shape=mailto:aymen.nigussie@aastustudent.edu.et"rect"   coords="420,40,580,160" 
 href="mailto:" alt="Email">
+
+<h3>Send me a message</h3>
+<form action="thank-you.html" method="get">
+    <fieldset>
+        <legend>Your Details</legend>
+        <p>
+            <label for="fullname">Full name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Your Message</legend>
+        <p>
+            <label for="reason">Reason for contacting me:</label>
+            <select id="reason" name="reason" required>
+                <option value="" selected disabled>Select a reason</option>
+                <optgroup label="Career">
+                    <option>Internship offer</option>
+                    <option>Freelance project</option>
+                    <option>Full-time job</option>
+                </optgroup>
+                <optgroup label="Academic">
+                    <option>Group project</option>
+                    <option>Tutoring</option>
+                </optgroup>
+                <option>Other</option>
+            </select>
+        </p>
+        <p>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </p>
+    </fieldset>
+    <button type="submit">Send Message</button>
+</form>
 </section>
 </main>
 <footer>
